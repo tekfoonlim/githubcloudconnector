@@ -49,10 +49,10 @@ pip install -r requirements.txt
 Create a `.env` file:
 
 ```env
-GITHUB_TOKEN=your_github_token
+GITHUB_TOKEN=your_github_PAT_token
 ```
 
-> ⚠️ Never hardcode tokens in code. Always use environment variables.
+> PAT Token is kept in .env file.
 
 ---
 
@@ -66,6 +66,8 @@ API runs at:
 
 ```
 http://127.0.0.1:8000
+OR
+http://localhost:8000
 ```
 
 ---
